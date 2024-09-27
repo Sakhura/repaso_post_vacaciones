@@ -66,3 +66,47 @@ section{
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
+/*user*/
+
+.user{
+    padding: 0;
+}
+
+.user .person{
+    position: relative;
+    width: 100%;
+    padding: 10px 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid #2ba3d2;
+}
+
+.userP .personP{
+    position: relative;
+    width: 100%;
+    padding: 10px 1rem;
+    cursor: pointer;
+}
+
+.user .person .name{
+    color: bisque;
+}
+
+.user .person:hover{
+    background-color: aquamarine;
+}
+
+.user .person.active-user{
+    background-color: aqua;
+}
+
+.user .person:last-child{
+    border-bottom: 0;
+}
+
+.user .person .user{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
