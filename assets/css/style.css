@@ -135,6 +135,39 @@ section{
 }
 
 .users .person .user .status.offline{
-    background-color: #690929;
+    background-color: #d40b0b;
+}
+
+.users .person .user .status.away{
+    background-color: #0c0e65;
+}
+
+.users .person .user .status.busy{
+    background-color: #c2540f;
+}
+
+.users .person p.name-time{
+    font-size: .85rem;
+    display: inline-block;
+}
+
+.users .person p.name-time time{
+    font-weight: 400;
+    font-size: 7rem;
+    text-align: right;
+    color: #1c9a21;
+}
+
+@media (max-width: 767px){
+    .users .person .user img{
+        width: 30px;
+        height: 30px;
+}
+    .users .person p.name-time time{
+        display: none;
+    }
+    .users .person p.name-time time{
+        display: none;
+    }
 }
 
